@@ -146,7 +146,6 @@ body {
     height: 300px;
     background-image: url("./images/watch.png");
     border-radius: 10px;
-
 }
 
 .bannerheader {
@@ -171,4 +170,64 @@ body {
     padding: 60px 50px;
     border-radius: 8px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 100px 200px 50px 200px;
+    gap: 300px;
+}
+
+.formfooter{
+    /* margin-left: -200px; */
+}
+
+.footer-title {
+    color:#F8F8F8;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer-p-one{
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footerform{
+    margin-top: 10px;
+}
+
+.inputform{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+
+.inputform::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.formbutton{
+    width: 150px;
+    height: 40px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: white;
+    border: 1px solid #F15B22;
+    border-radius: 5px;
 }
